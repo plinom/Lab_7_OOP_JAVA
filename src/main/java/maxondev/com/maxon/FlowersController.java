@@ -12,6 +12,6 @@ import java.util.List;
 public class FlowersController {
     @RequestMapping("/list/")
     public List<Flower> home() {
-        return List.of(new Flower(FlowerColor.RED, 12, 3.1));
+        return List.of(new Flower(FlowerColor.RED, 12, 3.1), new Flower(FlowerColor.BLUE, 110, 4.6));
     }
 }
